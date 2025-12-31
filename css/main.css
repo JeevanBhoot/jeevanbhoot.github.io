@@ -162,7 +162,7 @@ body {
   position: relative;
   background: #87c5ff;
   border-radius: 28px;
-  min-height: 520px;
+  min-height: 620px;
   overflow: hidden;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.04), 0 16px 32px rgba(0, 0, 0, 0.08);
   transform: perspective(1400px) rotateX(var(--tilt-y, 0deg)) rotateY(var(--tilt-x, 0deg));
@@ -222,17 +222,24 @@ body {
   isolation: isolate;
 }
 
-.desktop-icon:focus-visible {
-  outline: 2px dashed #182c5a;
-  outline-offset: 6px;
-}
-
 .icon-shape {
   width: 80px;
   height: 80px;
   border-radius: 20px;
   background: linear-gradient(145deg, #efd5ff, #c79bff);
   box-shadow: inset 0 0 0 1px rgba(58, 27, 100, 0.16), 0 10px 24px rgba(71, 38, 108, 0.22);
+  display: grid;
+  place-items: center;
+}
+
+.icon-mark {
+  width: 52px;
+  height: 52px;
+}
+
+.desktop-icon:focus-visible {
+  outline: 2px dashed #182c5a;
+  outline-offset: 6px;
 }
 
 .desktop-icon .label {
@@ -267,7 +274,7 @@ body {
   }
 
   .scene-surface {
-    min-height: 440px;
+    min-height: 500px;
   }
 }
 
