@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">JB</span>
+        <div class="brand-text">
+          <div class="brand-name">Jeevan Bhoot</div>
+          <div class="brand-role">ML Engineer / Researcher</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#profile">About</a>
+        <a href="#work">Work</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="content" class="{% if page.type == 'post' %}post-layout{% endif %}">
+      {% if page.type == 'post' %}
+      <article class="post">
+        <div class="eyebrow">Writing</div>
+        <h1>{{ page.title }}</h1>
+        <div class="post__meta mono">{{ page.date | date: "%b %d, %Y" }}</div>
+        <div class="post__body">
+          {{ content }}
+        </div>
+      </article>
+      {% else %}
+      {{ content }}
+      {% endif %}
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer__inner">
+        <div>
+          <div class="eyebrow">Let’s build something thoughtful</div>
+          <h2>Open to research collaborations and ML product work.</h2>
+        </div>
+        <div class="footer__actions">
+          <a class="button primary" href="mailto:hello@yourdomain.com">Email</a>
+          <a class="button ghost" href="https://github.com/jeevanbhoot">GitHub</a>
+          <a class="button ghost" href="https://scholar.google.com">Scholar</a>
+        </div>
+      </div>
+      <div class="footer__meta">
+        <span>Built for longevity on GitHub Pages</span>
+        <span class="mono">Last updated: {{ site.time | date: "%b %Y" }}</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

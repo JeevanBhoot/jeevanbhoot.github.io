@@ -1,0 +1,19 @@
+title: Jeevan Bhoot
+description: ML engineer and researcher exploring grounded, reliable AI systems.
+url: "https://jeevanbhoot.github.io"
+baseurl: ""
+theme: null
+markdown: kramdown
+permalink: /writing/:year/:month/:day/:title/
+timezone: UTC
+plugins:
+  - jekyll-feed
+
+collections:
+  posts:
+    output: true
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
