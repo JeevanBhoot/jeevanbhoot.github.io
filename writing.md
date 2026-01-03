@@ -7,7 +7,7 @@ title: Writing
   <div class="section-heading">
     <div class="eyebrow">Writing</div>
     <h2>Long-form notes</h2>
-    <p>Markdown-first, print-friendly. Add new posts in <code>_posts/</code> to publish.</p>
+    <p>Add new posts in <code>_posts/</code> to publish.</p>
   </div>
   <ul class="post-list">
     {% for post in site.posts %}

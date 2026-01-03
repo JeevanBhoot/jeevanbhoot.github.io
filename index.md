@@ -3,11 +3,6 @@ layout: default
 title: Jeevan Bhoot — ML engineer & researcher
 ---
 
-<section class="hero-banner" id="about">
-  <div class="hero-content">
-  </div>
-</section>
-
 <section class="section-lite" id="about-notes">
   <div class="about-wrap">
     <div>
@@ -18,8 +13,7 @@ title: Jeevan Bhoot — ML engineer & researcher
 
 <section class="section-lite" id="projects">
   <div class="section-heading">
-    <div class="eyebrow">Projects</div>
-    <h2>Selected work</h2>
+    <h2>Projects</h2>
   </div>
   <div class="project-grid">
     <article class="project-card">
@@ -54,8 +48,7 @@ title: Jeevan Bhoot — ML engineer & researcher
 
 <section class="section-lite" id="blog">
   <div class="section-heading">
-    <div class="eyebrow">Blog</div>
-    <h2>Recent writing</h2>
+    <h2>Blog</h2>
   </div>
   <ul class="post-list">
     {% for post in site.posts limit:3 %}
@@ -74,5 +67,4 @@ title: Jeevan Bhoot — ML engineer & researcher
     </li>
     {% endfor %}
   </ul>
-  <div class="hero-subline">Browse the full archive in <a href="{{ '/writing' | relative_url }}">writing</a>.</div>
 </section>
