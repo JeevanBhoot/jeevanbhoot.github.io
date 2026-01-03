@@ -9,13 +9,9 @@ title: Jeevan Bhoot — ML engineer & researcher
 </section>
 
 <section class="section-lite" id="about-notes">
-  <div class="section-heading">
-    <div class="eyebrow">About</div>
-    <h2>Measured ML, built to last</h2>
-  </div>
   <div class="about-wrap">
     <div>
-      <img src="{{ '/assets/avatar.jpeg' | relative_url }}" alt="Portrait of Jeevan Bhoot" class="about-avatar">
+      <img src="{{ '/assets/avatar.jpeg' | relative_url }}" class="about-avatar">
     </div>
   </div>
 </section>
@@ -27,8 +23,8 @@ title: Jeevan Bhoot — ML engineer & researcher
   </div>
   <div class="project-grid">
     <article class="project-card">
-      <h3>Interpretability toolkit</h3>
-      <p>Factorized embeddings and sparse explanations that make feature interactions readable to domain experts.</p>
+      <h3>Heading</h3>
+      <p>Description</p>
       <div class="tags">
         <span class="tag">NLP</span>
         <span class="tag">Interpretability</span>
@@ -36,8 +32,8 @@ title: Jeevan Bhoot — ML engineer & researcher
       </div>
     </article>
     <article class="project-card">
-      <h3>Evaluation harness</h3>
-      <p>Golden-set runner and dashboards to catch regressions before deploy, paired with slice-based reporting.</p>
+      <h3>Heading</h3>
+      <p>Description</p>
       <div class="tags">
         <span class="tag">Evals</span>
         <span class="tag">Monitoring</span>
@@ -45,8 +41,8 @@ title: Jeevan Bhoot — ML engineer & researcher
       </div>
     </article>
     <article class="project-card">
-      <h3>Human-in-the-loop workflows</h3>
-      <p>Decision tooling that keeps experts in control, with reversible actions and transparent model suggestions.</p>
+      <h3>Heading</h3>
+      <p>Description</p>
       <div class="tags">
         <span class="tag">Product</span>
         <span class="tag">HITL</span>
