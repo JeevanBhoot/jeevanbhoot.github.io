@@ -5,17 +5,6 @@ title: Jeevan Bhoot — ML engineer & researcher
 
 <section class="hero-banner" id="about">
   <div class="hero-content">
-    <div class="eyebrow">ML · Research</div>
-    <h1>Calm, interpretable machine learning for grounded products.</h1>
-    <p class="lede">I build evaluations, infrastructure, and interfaces that keep advanced models readable and reliable long after launch.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="mailto:hello@jeevanbhoot.com">Start a conversation</a>
-      <a class="button ghost" href="#blog">Read the blog</a>
-    </div>
-    <div class="hero-subline mono">Currently exploring eval harnesses, alignment-by-design patterns, and interpretability for decision tooling.</div>
-  </div>
-  <div class="hero-prompt">
-    Commissioned artwork placeholder: a serene valley at dawn with soft clouds and a distant city. In the foreground, a retro monitor glows gently, facing the horizon. Keep the horizon low and the left side clear for text.
   </div>
 </section>
 
@@ -24,9 +13,10 @@ title: Jeevan Bhoot — ML engineer & researcher
     <div class="eyebrow">About</div>
     <h2>Measured ML, built to last</h2>
   </div>
-  <div class="text-columns">
-    <p>I work across research and engineering to ship ML systems that stay legible: solid baselines, clear evals, human-centered interfaces, and pragmatic safety guardrails. The goal is to blend rigor with calm execution.</p>
-    <p class="mono">Based in: wherever the work is thoughtful. <br>Links: <a href="https://github.com/jeevanbhoot">GitHub</a> · <a href="https://scholar.google.com">Scholar</a> · <a href="mailto:hello@jeevanbhoot.com">Email</a></p>
+  <div class="about-wrap">
+    <div>
+      <img src="{{ '/assets/avatar.jpeg' | relative_url }}" alt="Portrait of Jeevan Bhoot" class="about-avatar">
+    </div>
   </div>
 </section>
 
