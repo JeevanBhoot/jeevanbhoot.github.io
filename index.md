@@ -3,10 +3,31 @@ layout: default
 title: Jeevan Bhoot — ML engineer & researcher
 ---
 
-<section class="section-lite" id="about-notes">
+<section class="section-lite" id="about">
   <div class="about-wrap">
+    <div class="about-copy">
+      <div class="about-name">Jeevan Singh Bhoot</div>
+      <p class="about-bio">hello world</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot current"></div>
+          <div class="timeline-label">Current</div>
+          <div class="timeline-meta">ML Engineer</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-label">Previous</div>
+          <div class="timeline-meta">Research / ML</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-label">Early</div>
+          <div class="timeline-meta">Foundations & study</div>
+        </div>
+      </div>
+    </div>
     <div>
-      <img src="{{ '/assets/avatar.jpeg' | relative_url }}" class="about-avatar">
+      <img src="{{ '/assets/avatar.jpeg' | relative_url }}" class="about-avatar" alt="Portrait of Jeevan Singh Bhoot">
     </div>
   </div>
 </section>
@@ -51,7 +72,7 @@ title: Jeevan Bhoot — ML engineer & researcher
     <h2>Blog</h2>
   </div>
   <ul class="post-list">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts %}
     <li class="post-row">
       <a href="{{ post.url | relative_url }}">
         <div class="post-date">{{ post.date | date: "%b %d, %Y" }}</div>
