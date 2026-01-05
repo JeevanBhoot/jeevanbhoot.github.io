@@ -59,7 +59,7 @@ title: Jeevan Bhoot - ML Engineer & Researcher
         <span class="tag">LLMs</span>
       </div>
     </a>
-    <a class="project-card" href="https://github.com/JeevanBhoot/logsim" target="_blank" rel="noopener">
+    <a class="project-card" href="https://github.com/JeevanBhoot/logsimgit" target="_blank" rel="noopener">
       <h3>Logic Simulator</h3>
       <p>Simulator for logic circuits using a bespoke hardware description language.</p>
       <div class="tags">
